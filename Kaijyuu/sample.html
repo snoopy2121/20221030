@@ -94,7 +94,7 @@
         const message = document.getElementById('message');
         const directionLight = document.getElementById('directionLight');
         const ambientLight = document.getElementById('ambientLight');
-        el.addEventListener('gps-entity-place-update-positon', (event) => {
+        /*el.addEventListener('gps-entity-place-update-positon', (event) => {
           distanceMsg.textContent = `あと${event.detail.distance}m`;
           if(event.detail.distance <= 30) {
             // 30m以下で明るくする、メッセージ表示、距離非表示
@@ -114,7 +114,7 @@
             ambientLight.setAttribute('intensity',0);
             distanceMsg.style.display = 'block';
             message.style.display = 'none';
-          }
+          }*/
         });
       });
     </script>
